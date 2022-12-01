@@ -20,7 +20,7 @@ const Users = db.define('users', {
     allowNull: false,
     unique: true
   },
-  emmail: {
+  email: {
     type: DataTypes.STRING,
     allowNull: false,
     unique: true,
