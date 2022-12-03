@@ -30,7 +30,7 @@ const createUser = async (obj) => {
   return data
 }
 
-const findUserByEmail = async () => {
+const findUserByEmail = async (email) => {
   const data = await Users.findOne({
     where: {
       email: email
